@@ -6,11 +6,14 @@ echo pageName;
 // -------------------------
 // print_r($_SERVER);
 echo "<br/>";
+// print_r($_SERVER);
 echo "<br /> server port : " .$_SERVER["SERVER_PORT"] ."<br/>";
 echo "server address : " .$_SERVER["SERVER_ADDR"] ."<br/>";
 echo "server name : " .$_SERVER["SERVER_NAME"] ."<br/>";
+echo "file path and name : " .__FILE__ ."<br/>";
+
 // ------------------
-$brotherAge = 8;
+$brotherAge = 10;
 echo "<br /> brother's Age" .$brotherAge;
 switch($brotherAge){
     case $brotherAge <= 4:
